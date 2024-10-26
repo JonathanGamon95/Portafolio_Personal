@@ -1,5 +1,34 @@
 @media (min-width: 1199.98px) {
 
+
+    body {
+        position: relative;
+    }
+
+    body>button {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    body>button i {
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+
+
+
+
+
+
+
+
+
+
     /* MEDIDAS DE SECTIONS */
     #INICIO,
     #SOBRE_MI,
@@ -35,6 +64,7 @@
 
     header>h1 {
         margin: auto;
+        visibility: visible;
     }
 
     header>button {
@@ -460,7 +490,7 @@
     #FORMULARIO_DE_CONTACTO .cont_formulario .form {
         width: 450px;
         height: 600px;
-        
+
         margin: auto;
         border-radius: 20px;
         overflow: hidden;
@@ -469,7 +499,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
 
-        box-shadow: 6px 8px 14px 4px rgba(0,0,0,0.3);
+        box-shadow: 6px 8px 14px 4px rgba(0, 0, 0, 0.3);
     }
 
 

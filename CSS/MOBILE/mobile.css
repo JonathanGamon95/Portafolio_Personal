@@ -1,12 +1,36 @@
 @media (max-width: 575.98px)and (orientation:portrait) {
 
 
+    body {
+            position: relative;
+        }
+    
+        body>button {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: transparent;
+            border: none;
+        }
+    
+        body>button i {
+            font-size: 40px;
+            color: aliceblue;
+        }
+
+
+
+
+
+
+
+
     header {
         position: absolute;
         top: 0%;
         width: 100vw;
         height: 60px;
-        background-color: #1F4172;
+        
 
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -15,6 +39,7 @@
 
     header>h1 {
         margin: auto;
+        visibility: hidden;
     }
 
     header>button {
