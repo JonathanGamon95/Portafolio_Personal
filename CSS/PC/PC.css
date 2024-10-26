@@ -1,0 +1,563 @@
+@media (min-width: 1199.98px) {
+
+    /* MEDIDAS DE SECTIONS */
+    #INICIO,
+    #SOBRE_MI,
+    #FORMULARIO_DE_CONTACTO {
+        /* width: 100vw; */
+        height: 100vh;
+    }
+
+    #PORTAFOLIO {
+        width: auto;
+        height: auto;
+    }
+
+
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+    header {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        height: 60px;
+        background-color: #1F4172;
+
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    header>h1 {
+        margin: auto;
+    }
+
+    header>button {
+        display: none;
+    }
+
+
+
+    header .menu_header {
+        display: block;
+
+        grid-column: 4 / 7;
+        grid-row: 1 / -1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    header .menu_header p {
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* INICIO */
+    #INICIO {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    #INICIO .cont_titulo_principal {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #INICIO .cont_titulo_principal h1 {
+        margin: 0 100px;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* cont imagen principal */
+    #INICIO .cont_imagen_principal {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #INICIO .cont_imagen_principal .cont_imagen {
+        width: 400px;
+        height: 500px;
+        /* background-color: aliceblue; */
+        border-radius: 1em;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+
+    #INICIO .cont_imagen_principal .cont_imagen img {
+        grid-column: 1 / -1;
+        grid-row: 1 / 8;
+
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+
+
+
+
+    /* boton CV */
+    #INICIO .cont_imagen_principal .cont_imagen button {
+        margin: auto;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+
+        border: none;
+        text-align: center;
+        transition: all 0.5s;
+        cursor: pointer;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    }
+
+
+    #INICIO .cont_imagen_principal .cont_imagen button {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    #INICIO .cont_imagen_principal .cont_imagen button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 10px;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    #INICIO .cont_imagen_principal .cont_imagen button:hover {
+        padding-right: 24px;
+        padding-left: 8px;
+    }
+
+    #INICIO .cont_imagen_principal .cont_imagen button:hover:after {
+        opacity: 1;
+        right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* SOBRE MI */
+    #SOBRE_MI h2 {
+        margin: auto;
+        font-size: 40px;
+    }
+
+
+
+
+    #SOBRE_MI {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    /* #SOBRE_MI h2 {
+        margin: auto;
+        font-size: 40px;
+    } */
+
+    #SOBRE_MI .cont_sobre_me {
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+
+    /* perfil */
+    #SOBRE_MI .cont_sobre_me>.perfil {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+
+    #SOBRE_MI .cont_sobre_me .perfil p {
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 25px;
+        margin: 20px;
+    }
+
+
+
+    #SOBRE_MI .cont_sobre_me>li {
+        width: 400px;
+        aspect-ratio: 1 / 1;
+        margin: auto;
+        border-radius: 1em;
+        transition: 0.2s ease-in-out;
+    }
+
+    #SOBRE_MI .cont_sobre_me>li:hover {
+        padding: 10px;
+        box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+
+
+
+
+    /* contacto */
+    #SOBRE_MI .cont_sobre_me .contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+
+    #SOBRE_MI .cont_sobre_me .contacto .cont_link_Contacto {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .cont_link_Contacto>li {
+        aspect-ratio: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    /* herramientas */
+    #SOBRE_MI .cont_sobre_me .herramientas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+
+    #SOBRE_MI .cont_sobre_me .herramientas .cont_habilidades {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+
+    #SOBRE_MI .cont_sobre_me .herramientas .cont_herramientas {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+
+
+    .cont_link_Contacto li i,
+    .cont_habilidades li i,
+    .cont_herramientas li i,
+    #SOBRE_MI .cont_sobre_me .herramientas .cont_herramientas img,
+    #SOBRE_MI .cont_sobre_me .herramientas .cont_habilidades img {
+        font-size: 50px;
+        width: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont_link_Contacto li i:hover {
+        font-size: 60px;
+    }
+
+
+
+
+
+
+
+
+    /* PORTAFOLIO */
+    #PORTAFOLIO {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        padding-bottom: 20px;
+    }
+
+
+
+    #PORTAFOLIO h2 {
+        margin: auto;
+        font-size: 40px;
+    }
+
+
+
+    #PORTAFOLIO .cont_proyectos {
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(150px, 1fr));
+        grid-gap: 20px;
+    }
+
+
+    #PORTAFOLIO .cont_proyectos li {
+        flex: 1 0 auto;
+        width: 300px;
+        height: 400px;
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+
+    #PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto {
+        grid-column: 1 / -1;
+        grid-row: 1 / 5;
+        margin: 10px;
+        background-color: aliceblue;
+        overflow: hidden;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    #PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto:hover {
+        margin: 5px;
+    }
+
+
+
+    #PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #PORTAFOLIO .cont_proyectos li p {
+        grid-column: 1 / -1;
+        grid-row: 5 / -1;
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* FOMRULARIO_CONTACTO */
+    #FORMULARIO_DE_CONTACTO {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+
+    #FORMULARIO_DE_CONTACTO h2 {
+        margin: auto;
+        font-size: 40px;
+    }
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario {
+        grid-column: 1 / -1;
+        grid-row: 2 / 8;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .form {
+        width: 450px;
+        height: 600px;
+        
+        margin: auto;
+        border-radius: 20px;
+        overflow: hidden;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+
+        box-shadow: 6px 8px 14px 4px rgba(0,0,0,0.3);
+    }
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .form .header_form {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+
+
+
+
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form {
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form h1 {
+        grid-column: 1 / -1;
+        grid-row: 2 / 4;
+        margin: auto 20px;
+        font-size: 40px;
+    }
+
+
+
+
+
+
+
+
+    form {
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding: 10px;
+        column-gap: 10px;
+    }
+
+
+
+    form label>input {
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    form>.textarea {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    form>.textarea textarea {
+        height: 100%;
+        border: none;
+    }
+
+
+    form>button {
+        grid-column: 1 / 2;
+        grid-row: 4 / -1;
+        margin: auto auto auto 5px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}

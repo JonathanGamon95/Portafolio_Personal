@@ -1,0 +1,181 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* --COLORES-- */
+
+/* HEADER */
+header {
+    color: aliceblue;
+}
+
+
+
+
+/* INICIO */
+#INICIO {
+    background-image: url(../../IMAGENES/FONDO_SECCIONES/fondo_inicio_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#INICIO .cont_imagen_principal .cont_imagen button {
+    background-color: #081F5C;
+    color: aliceblue;
+}
+
+
+
+
+
+
+/* SOBRE MI */
+#SOBRE_MI {
+    background-color: #1F4172;
+}
+
+
+#SOBRE_MI .cont_sobre_me li {
+    background-color: #081F5C;
+}
+
+#SOBRE_MI h2,
+#PORTAFOLIO h2,
+#FORMULARIO_DE_CONTACTO h2 {
+    color: aliceblue;
+    text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* #FORMULARIO_DE_CONTACTO h2 {
+    color: #081F5C;
+    text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.6);
+} */
+
+
+
+
+
+#SOBRE_MI .cont_sobre_me p,
+#PORTAFOLIO .cont_proyectos li p {
+    color: aliceblue;
+}
+
+
+.cont_link_Contacto li i,
+.cont_habilidades li i,
+.cont_herramientas li i {
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* PORTAFOLIO */
+#PORTAFOLIO {
+    background-image: url(../../IMAGENES/FONDO_SECCIONES/fondo_portafolio_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#PORTAFOLIO .cont_proyectos li {
+    background-color: #081F5C;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOMRULARIO_CONTACTO */
+#FORMULARIO_DE_CONTACTO {
+    background-image: url(../../IMAGENES/FONDO_SECCIONES/fondo_formulario_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* FORM */
+#FORMULARIO_DE_CONTACTO .cont_formulario .form {
+    background-color: #F9F9F9;
+}
+
+
+form>button {
+    background-color: #0090F6;
+    color: aliceblue;
+}
+
+
+
+
+#FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form h1 {
+    color: aliceblue;
+}
+
+
+
+html, body {
+    margin: 0; /* Asegúrate de que no haya márgenes */
+    width: 100%;
+    min-height: 100%; /* Cambiar a min-height para cubrir toda la altura */
+}
+
+body {
+    background: linear-gradient(-45deg, #b441ab, #bb3468, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
