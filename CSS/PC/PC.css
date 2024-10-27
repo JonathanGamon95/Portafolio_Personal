@@ -173,6 +173,7 @@
         padding: 10px 15px;
         border: none;
         border-radius: 5px;
+        overflow: hidden;
 
         border: none;
         text-align: center;
@@ -201,6 +202,8 @@
     #INICIO .cont_imagen_principal .cont_imagen button:hover {
         padding-right: 24px;
         padding-left: 8px;
+
+        padding: 10px 15px;
     }
 
     #INICIO .cont_imagen_principal .cont_imagen button:hover:after {
@@ -512,6 +515,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
         column-gap: 40px;
+        margin-top: 20px;
     }
 
 
