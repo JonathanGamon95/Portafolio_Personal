@@ -490,58 +490,18 @@
     #FORMULARIO_DE_CONTACTO .cont_formulario .form {
         width: 450px;
         height: 600px;
-
         margin: auto;
+        padding: 20px;
         border-radius: 20px;
         overflow: hidden;
 
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: auto repeat(5, 1fr);
 
+        background-color: #F9F9F9;
         box-shadow: 6px 8px 14px 4px rgba(0, 0, 0, 0.3);
     }
-
-
-    #FORMULARIO_DE_CONTACTO .cont_formulario .form .header_form {
-        grid-column: 1 / -1;
-        grid-row: 1 / 2;
-
-        display: flex;
-        align-items: start;
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-        padding-left: 10px;
-    }
-
-
-
-
-
-
-
-    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form {
-        width: 100%;
-        height: 100%;
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-    }
-
-    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form h1 {
-        grid-column: 1 / -1;
-        grid-row: 2 / 4;
-        margin: auto 20px;
-        font-size: 40px;
-    }
-
-
-
-
-
-
 
 
     form {
@@ -551,43 +511,70 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
-        padding: 10px;
-        column-gap: 10px;
+        column-gap: 40px;
     }
 
 
 
-    form label>input {
-        height: 50px;
+    form label {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+        padding: 10px;
+        border: 1px solid #cccccc;
+        font-size: 14px;
+        height: 30px;
         border-radius: 20px;
         border: none;
-        margin-top: 10px;
-        padding-left: 10px;
     }
 
-
-    form>.textarea {
+    .textarea {
         grid-column: 1 / -1;
         grid-row: 3 / 4;
 
-        display: flex;
-        flex-direction: column;
+        resize: none;
+        height: 100px;
     }
 
-
-    form>.textarea textarea {
-        height: 100%;
-        border: none;
+    textarea {
+        resize: none;
+        height: 100px;
     }
 
-
-    form>button {
+    form button {
         grid-column: 1 / 2;
         grid-row: 4 / -1;
-        margin: auto auto auto 5px;
-        padding: 10px 20px;
-        border-radius: 20px;
+
+        padding: 20px 30px;
+        margin: auto auto auto 0;
+        background-color: #007bff;
+        color: white;
         border: none;
+        border-radius: 5px;
         cursor: pointer;
+    }
+
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form {
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #FORMULARIO_DE_CONTACTO .cont_formulario .cont_mensaje_form h1 {
+        margin: auto 20px;
+        font-size: 40px;
     }
 }
