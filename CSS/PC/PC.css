@@ -581,4 +581,18 @@
         margin: auto 20px;
         font-size: 40px;
     }
+
+
+
+
+
+
+
+
+
+
+    /* MENU MOBILE */
+    #boton_modal {
+        display: none;
+    }
 }
