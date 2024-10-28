@@ -54,7 +54,7 @@
         <div class="cont_imagen_principal">
             <div class="cont_imagen">
                 <img src="./IMAGENES/FOTO_DE_PERFIL/foto_1b.png" alt="">
-                <button><span>descargar cv</span></button>
+                <button id="boton_CV"><span>descargar cv</span></button>
             </div>
         </div>
     </section>
@@ -192,17 +192,19 @@
                     <p>If you want, leave me your message, so we can get in touch</p>
                 </div>
 
+
+                <!-- falta agregar la ruta del envio -->
                 <form action="ruta_del_servidor" method="post">
                     <label for="nombre">name:
-                        <input type="text" id="nombre" name="nombre" placeholder="name" required>
+                        <input type="text" id="nombre" name="nombre" placeholder="Name" required>
                     </label>
 
                     <label for="email">Email:
-                        <input type="email" id="email" name="email" placeholder="email" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
                     </label>
 
                     <label for="nombre">phone:
-                        <input type="number" id="nombre" name="nombre" placeholder="phone" required>
+                        <input type="number" id="nombre" name="nombre" placeholder="Phone" required>
                     </label>
 
                     <label class="textarea" for="mensaje">Menssaje:
@@ -272,6 +274,7 @@
     <script src="https://kit.fontawesome.com/a234d39e4f.js" crossorigin="anonymous"></script>
     <script src="./JS/MENU-MOBILE/menu_mobile.js"></script>
     <script src="./JS/ANIMACION SCROLL MENU/animacion_scroll.js"></script>
+    <script src="./JS/DESCARGA_DE_CV/descargar_cv.js"></script>
 </body>
 
 </html>
