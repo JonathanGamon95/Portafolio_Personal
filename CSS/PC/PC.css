@@ -592,7 +592,8 @@
 
 
     /* MENU MOBILE */
-    #boton_modal {
+    #boton_modal,
+    .div_body {
         display: none;
     }
 }

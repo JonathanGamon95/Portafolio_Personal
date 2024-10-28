@@ -26,10 +26,11 @@
 
 
     header {
-        position: absolute;
+        position: fixed;
         top: 0%;
         width: 100vw;
         height: 60px;
+        z-index: 3;
 
 
         display: grid;
