@@ -336,6 +336,7 @@
 
 
     #PORTAFOLIO .cont_proyectos li {
+        position: relative;
         width: 90%;
         height: 500px;
         margin: auto;
@@ -365,6 +366,15 @@
         grid-column: 1 / -1;
         grid-row: 5 / -1;
         margin: 10px;
+    }
+
+
+
+    #PORTAFOLIO .cont_proyectos li h3 {
+        width: auto;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
     }
 
 

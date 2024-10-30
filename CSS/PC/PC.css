@@ -90,6 +90,9 @@
         cursor: pointer;
     }
 
+    header .menu_header p:hover {
+        color: #0090F6;
+    }
 
 
 
@@ -413,6 +416,7 @@
 
 
     #PORTAFOLIO .cont_proyectos li {
+        position: relative;
         flex: 1 0 auto;
         width: 300px;
         height: 400px;
@@ -452,7 +456,14 @@
     }
 
 
+    
 
+    #PORTAFOLIO .cont_proyectos li h3 {
+        width: auto;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
 
 
 
