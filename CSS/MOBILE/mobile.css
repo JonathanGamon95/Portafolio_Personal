@@ -74,7 +74,6 @@
 
 
 
-
     #INICIO {
         width: 100vw;
         height: 100vh;
@@ -217,7 +216,6 @@
     #SOBRE_MI .cont_sobre_me>li {
         width: 90%;
         aspect-ratio: 1;
-        background-color: aliceblue;
         margin: auto;
         border-radius: 10px;
     }
@@ -234,7 +232,7 @@
 
     #SOBRE_MI .cont_sobre_me .contacto .cont_link_Contacto {
         grid-column: 1 / -1;
-        grid-row: 2 / -1;
+        grid-row: 3 / 4;
 
         display: flex;
         align-items: center;
@@ -544,7 +542,12 @@
         width: 100%;
         height: 90%;
         transform: translateY(-100%);
-        background-color: #92A5FD;
+        background-image: linear-gradient(to top, #000000, #17000a, #220017, #270025, #280036);
+
+        box-shadow: 0px 11px 21px 15px rgba(0, 0, 0, 0.64);
+        -webkit-box-shadow: 0px 11px 21px 15px rgba(0, 0, 0, 0.64);
+        -moz-box-shadow: 0px 11px 21px 15px rgba(0, 0, 0, 0.64);
+
         color: aliceblue;
         transition: 0.3s;
     }
@@ -579,5 +582,13 @@
     #boton_cerrar_menu i {
         font-size: 30px;
         color: aliceblue;
+    }
+
+
+    #boton_CV_mobile {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        overflow: hidden;
     }
 }

@@ -1,4 +1,5 @@
 const BOTON_DESCARGA_CV = document.getElementById("boton_CV");
+const BOTON_DESCARGAR_CV_MOBILE = document.getElementById("boton_CV_mobile");
 
 const descarga = () => {
     const filePath = "./JS/DESCARGA_DE_CV/CV/desarrollo_web.pdf" // Cambia esto a la ruta correcta
@@ -11,3 +12,4 @@ const descarga = () => {
 }
 
 BOTON_DESCARGA_CV.addEventListener("click", descarga);
+BOTON_DESCARGAR_CV_MOBILE.addEventListener("click", descarga);
