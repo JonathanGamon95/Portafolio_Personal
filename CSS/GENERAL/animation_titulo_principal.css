@@ -1,4 +1,5 @@
-#INICIO .cont_titulo_principal h1 {
+#INICIO .cont_titulo_principal h1,
+#INICIO .cont_titulo_principal p {
     text-transform: uppercase;
     background-image: linear-gradient(-225deg,
             #231557 0%,

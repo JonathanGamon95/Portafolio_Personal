@@ -61,6 +61,18 @@ header {
 
 
 
+/* INICIO */
+.cont_imagen_perfil {
+    background-color: #1E1E1E;
+}
+
+
+
+
+
+
+
+
 
 /* PORTAFOLIO */
 #PORTAFOLIO {
@@ -152,7 +164,3 @@ body {
         background-position: 0% 50%;
     }
 }
-
-
-
-
