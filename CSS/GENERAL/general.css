@@ -21,15 +21,6 @@ header {
 
 
 
-/* INICIO */
-#INICIO {
-    /* background-image: url(../../IMAGENES/FONDO_SECCIONES/fondo_inicio_2.png); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
 
 #SOBRE_MI h2,
 #PORTAFOLIO h2,
@@ -64,6 +55,11 @@ header {
 /* INICIO */
 .cont_imagen_perfil {
     background-color: #1E1E1E;
+
+    background-image: url(../../IMAGENES/FONDO_SECCIONES/Post___Safer_Code-First_GraphQL_Development_with_Inigoâ__s_Schema_Checks_and_Linting.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -139,10 +135,13 @@ form>button {
 
 
 
-html, body {
-    margin: 0; /* Asegúrate de que no haya márgenes */
+html,
+body {
+    margin: 0;
+    /* Asegúrate de que no haya márgenes */
     width: 100%;
-    min-height: 100%; /* Cambiar a min-height para cubrir toda la altura */
+    min-height: 100%;
+    /* Cambiar a min-height para cubrir toda la altura */
 }
 
 body {
@@ -157,9 +156,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }

@@ -156,6 +156,9 @@
     .cont_imagen_perfil {
         margin: auto 0;
         height: 200px;
+
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
 
