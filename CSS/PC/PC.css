@@ -65,7 +65,45 @@
     header>h1 {
         margin: auto;
         visibility: visible;
+        user-select: none;
     }
+
+
+    /* efecto hover */
+    header>h1 {
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      header>h1:before{
+        content: '';
+        background: aliceblue;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      header>h1:hover {
+       background-position: 0;
+      }
+      
+      header>h1:hover::before{
+        width: 100%;
+      }
+      /* efecto hover */
+
+
+
+
+
 
     header>button {
         display: none;
@@ -83,6 +121,8 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+
+        border-bottom: 1px solid #ffffff33;
     }
 
 
@@ -301,7 +341,6 @@
         aspect-ratio: 1 / 1;
         margin: auto;
         border-radius: 1em;
-        transition: 0.2s ease-in-out;
     }
 
 
