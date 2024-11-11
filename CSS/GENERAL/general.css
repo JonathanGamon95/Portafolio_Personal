@@ -4,6 +4,7 @@
 
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
+    transition: 0s;
 }
 
 li {
