@@ -204,6 +204,14 @@
 
 
 
+    #INICIO .cont_botones_inicio {
+        display: flex;
+        gap: 10px;
+    }
+
+
+
+
 
 
 
