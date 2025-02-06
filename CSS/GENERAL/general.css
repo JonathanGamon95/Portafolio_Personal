@@ -43,6 +43,8 @@ header {
 .cont_habilidades li i,
 .cont_herramientas li i {
     color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 
