@@ -506,10 +506,9 @@
 
 
 
-    #PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto img {
-        width: 100%;
-        height: 100%;
-    }
+    
+
+    
 
     #PORTAFOLIO .cont_proyectos li p {
         grid-column: 1 / -1;

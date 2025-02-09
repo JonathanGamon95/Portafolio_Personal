@@ -15,13 +15,6 @@ li {
     list-style: none;
 }
 
-li, li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 
 
 
@@ -106,7 +99,20 @@ header {
 
 
 
+/*img portafolio*/
 
+#PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto {
+    background: none;
+    
+}
+
+
+
+#PORTAFOLIO .cont_proyectos li .cont_imagen_proyecto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 
 
 
