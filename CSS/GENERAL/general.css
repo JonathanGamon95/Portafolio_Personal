@@ -7,9 +7,22 @@
     transition: 0s;
 }
 
+body>button {
+    transition: 0.2s ease-in-out;
+}
+
 li {
     list-style: none;
 }
+
+li, li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 
 
 /* --COLORES-- */
