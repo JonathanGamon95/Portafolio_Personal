@@ -120,6 +120,18 @@ header {
 
 
 
+/*SOBRE MI*/
+#SOBRE_MI .cont_sobre_me .herramientas .cont_habilidades li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 

@@ -63,7 +63,7 @@
     }
 
     header>h1 {
-        margin: auto;
+        margin: auto auto auto 20px;
         visibility: visible;
         user-select: none;
     }
